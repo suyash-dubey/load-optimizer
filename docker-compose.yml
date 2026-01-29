@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  load-optimizer:
+    build: .
+    container_name: smartload-optimizer
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

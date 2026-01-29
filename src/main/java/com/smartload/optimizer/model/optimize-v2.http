@@ -1,0 +1,16 @@
+POST http://localhost:8080/optimize/v2
+Content-Type: application/json
+
+{
+  "truck": {
+    "id": "TRUCK-1",
+    "maxWeightLbs": 10000,
+    "maxVolumeCuft": 100
+  },
+  "orders": [
+    { "id": "O1", "payoutCents": 5000, "weightLbs": 2000, "volumeCuft": 20 },
+    { "id": "O2", "payoutCents": 4000, "weightLbs": 3000, "volumeCuft": 30 },
+    { "id": "O3", "payoutCents": 7000, "weightLbs": 4000, "volumeCuft": 40 },
+    { "id": "O4", "payoutCents": 2000, "weightLbs": 1000, "volumeCuft": 10 }
+  ]
+}
