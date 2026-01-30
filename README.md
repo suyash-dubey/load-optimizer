@@ -22,6 +22,6 @@ constraints.
 
 ### Start the service
 ```bash
-git clone https://github.com/suyash-dubey/load-optimizer.git
+git clone <https://github.com/suyash-dubey/load-optimizer.git>
 cd load-optimizer
 docker compose up --build
